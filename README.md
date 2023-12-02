@@ -3,7 +3,8 @@
 A frontend clone of the [ManageWise](https://managewise.framer.website/) website.
 
 ```text
-  UNRESPONSIVE
+  Mobile RESPONSIVE
+  Tablet UNRESPONSIVE
 ```
 
 ## Table of Contents
