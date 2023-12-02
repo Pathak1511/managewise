@@ -9,22 +9,13 @@ A frontend clone of the [ManageWise](https://managewise.framer.website/) website
 ## Table of Contents
 
 - [Description](#description)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Description
 
 This project is a frontend clone of the [ManageWise](https://managewise.framer.website/) website. It aims to replicate the user interface and design elements of the original site.
-
-## Features
-
-- Replicated UI of ManageWise website
-- [Add specific features of your clone]
 
 ## Installation
 
