@@ -21,7 +21,7 @@ function Discover() {
       {/* Image */}
       <div className="Discover-grid-1">
         <div className="boost-prod">
-          <div>
+          <div className="boost-card">
             <div className="boost-icon">
               <div className="icon">⭐️</div>
             </div>

@@ -25,7 +25,10 @@ function TryOut() {
           </div>
           {/* Grid-2 */}
           <div className="tryIt-grid-2">
-            <img src="https://framerusercontent.com/images/S4kVG1FFzSqxr8zOqpvJRfsBad0.png?scale-down-to=512" />
+            <img
+              src="https://framerusercontent.com/images/S4kVG1FFzSqxr8zOqpvJRfsBad0.png?scale-down-to=512"
+              className="tryItout"
+            />
           </div>
         </div>
       </div>

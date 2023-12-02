@@ -178,8 +178,10 @@ ul {
 }
 .boost-prod {
   background-color: #ededfa;
-  padding-left: 32px;
   grid-row: 1;
+}
+.boost-card {
+  padding: 32px;
 }
 
 .grid3 {
@@ -596,4 +598,146 @@ ul {
 
 .footer-icon:hover {
   color: #8247ff;
+}
+
+/* Media query */
+
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+  body {
+    padding: auto 10px;
+  }
+  ul {
+    flex-direction: column;
+  }
+  p {
+    padding: auto 8px;
+  }
+  /* To be update */
+  .navbar {
+    display: none;
+  }
+  .Hero-h1,
+  .discover-h1,
+  .explore-h1,
+  .FAQ-h1,
+  .discover-boost-h3,
+  .integration-h1 {
+    font-size: 28px;
+  }
+  .Hero-p,
+  .discover-p,
+  .explore-p,
+  .integration-p,
+  .btn-start,
+  .btn-demo,
+  .accordion-h4 {
+    font-size: 14px;
+  }
+
+  .accordion-p {
+    font-size: 12px;
+  }
+  .btn-start,
+  .btn-demo {
+    height: 40px;
+  }
+  .Hero-Intro,
+  .discover-Intro {
+    gap: 8px;
+  }
+  /* p {
+    padding: auto 60px !important;
+  } */
+  .Discover-grid-1,
+  .FAQ,
+  .Card-main,
+  .tryIt-main {
+    flex-direction: column;
+  }
+  .grid3,
+  .boost-img3,
+  .boost-prod,
+  .boost-img1,
+  .grid3,
+  .Discover-grid-1,
+  .Explore,
+  .integration-main,
+  .right-faq,
+  .Price,
+  .Card,
+  .Testimonial {
+    width: fit-content;
+    flex-direction: column;
+    height: fit-content;
+    padding: 8px;
+  }
+  .Explore,
+  .Testimonial,
+  .Price {
+    padding-top: 40px;
+  }
+  .Card {
+    width: 260px;
+    padding: 20px;
+  }
+  .right-faq {
+    padding: auto 8px !important;
+  }
+
+  .accordion,
+  .grid3,
+  .Discover-grid-1 {
+    padding: auto 8px;
+  }
+  .explore-p,
+  .Footer {
+    padding-top: 0px;
+  }
+
+  .integration-Welcome,
+  .accordion {
+    margin-bottom: 10px;
+  }
+  .tryIt-grid-1 {
+    margin-left: 0px;
+  }
+  .boost-prod {
+    padding: 0px;
+  }
+  .discover-h1,
+  .explore-main,
+  .right-faq,
+  .integration-h1 {
+    width: fit-content;
+  }
+  .Hero-p,
+  .discover-p,
+  .explore-p,
+  .integration-p,
+  .footer-grid-1,
+  .tryIt-grid-1,
+  .tryIt-grid-2,
+  .tryItout {
+    width: fit-content;
+  }
+  .tryItout {
+    width: 300px;
+  }
+  .boost-card {
+    padding-left: 20px;
+  }
+  .grid3 {
+    gap: 20px;
+  }
+  .Explore {
+    height: fit-content;
+    padding-bottom: 60px;
+  }
+  .integration-main {
+    padding-top: 20px;
+  }
+  .FAQ {
+    align-items: center;
+    gap: 40px;
+  }
 }
