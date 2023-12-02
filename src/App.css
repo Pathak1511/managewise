@@ -634,7 +634,8 @@ ul {
     font-size: 14px;
   }
 
-  .accordion-p {
+  .accordion-p,
+  .testimonial-p {
     font-size: 12px;
   }
   .btn-start,
@@ -720,6 +721,14 @@ ul {
   .tryItout {
     width: fit-content;
   }
+  .tryIt-main,
+  .TryItNow {
+    padding: 8px;
+  }
+
+  .tryIt-grid-1 {
+    padding: 20px 20px;
+  }
   .tryItout {
     width: 300px;
   }
@@ -736,7 +745,11 @@ ul {
   .integration-main {
     padding-top: 20px;
   }
+  .testimonial-footer {
+    margin-top: 20px;
+  }
   .FAQ {
+    padding-top: 40px;
     align-items: center;
     gap: 40px;
   }
