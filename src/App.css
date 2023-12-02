@@ -675,6 +675,9 @@ ul {
     height: fit-content;
     padding: 8px;
   }
+  .grid3 {
+    padding: 0px;
+  }
   .Explore,
   .Testimonial,
   .Price {
@@ -763,8 +766,13 @@ ul {
   .Hero-Welcome,
   .discover-Welcome,
   .explore-Welcome,
-  .integration-Welcome {
+  .integration-Welcome,
+  .Hero-image,
+  .tryIt-main {
     border-radius: 8px !important;
+  }
+  .tryIt-grid-2 {
+    margin: 20px auto;
   }
   /* body {
     padding: auto 10px;
