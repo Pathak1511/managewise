@@ -603,14 +603,15 @@ ul {
 /* Media query */
 
 @media only screen and (min-width: 350px) and (max-width: 600px) {
-  body {
-    padding: auto 10px;
-  }
   ul {
     flex-direction: column;
   }
   p {
     padding: auto 8px;
+  }
+  strong {
+    font-size: 40px !important;
+    margin: 0px !important;
   }
   /* To be update */
   .navbar {
@@ -635,7 +636,8 @@ ul {
   }
 
   .accordion-p,
-  .testimonial-p {
+  .testimonial-p,
+  .Price-list {
     font-size: 12px;
   }
   .btn-start,
@@ -666,7 +668,8 @@ ul {
   .right-faq,
   .Price,
   .Card,
-  .Testimonial {
+  .Testimonial,
+  .btn-price {
     width: fit-content;
     flex-direction: column;
     height: fit-content;
@@ -680,6 +683,7 @@ ul {
   .Card {
     width: 260px;
     padding: 20px;
+    border-radius: 8px !important;
   }
   .right-faq {
     padding: auto 8px !important;
@@ -753,4 +757,17 @@ ul {
     align-items: center;
     gap: 40px;
   }
+  button,
+  .boost-prod,
+  .boost-img1,
+  .Hero-Welcome,
+  .discover-Welcome,
+  .explore-Welcome,
+  .integration-Welcome {
+    border-radius: 8px !important;
+  }
+  /* body {
+    padding: auto 10px;
+    border-radius: 8px !important;
+  } */
 }
